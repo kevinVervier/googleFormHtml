@@ -2,7 +2,7 @@ jQuery( document ).ready(function( $ ) {
 	// variable to hold request
 	var request;
 	// bind to the submit event of our form
-	$("#foo").submit(function(event){
+	$("#test-form").submit(function(event){
 		// abort any pending request
 		if (request) {
 			request.abort();
