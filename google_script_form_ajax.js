@@ -10,7 +10,7 @@ jQuery( document ).ready(function( $ ) {
 		// setup some local variables
 		var $form = $(this);
 		// let's select and cache all the fields
-		var $inputs = $form.find("input, select, button, textarea");
+		var $inputs = $form.find("text");
 		// serialize the data in the form
 		var serializedData = $form.serialize();
 	
