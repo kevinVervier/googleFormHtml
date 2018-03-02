@@ -30,7 +30,7 @@ jQuery( document ).ready(function( $ ) {
 		// callback handler that will be called on success
 		request.done(function (response, textStatus, jqXHR){
 			// log a message to the console
-			$('#result').html('<a href="https://docs.google.com/spreadsheets/d/1Y1QfHjuzZDIA2idxS7x0omqCZZ2eFGWC_fpPNhS54dY/edit?usp=sharing" target="_blank">Success - see Google Sheet</a>');
+			$('#submit-form').html('<a href="https://docs.google.com/spreadsheets/d/1Y1QfHjuzZDIA2idxS7x0omqCZZ2eFGWC_fpPNhS54dY/edit?usp=sharing" target="_blank">Success - see Google Sheet</a>');
 			console.log("Hooray, it worked!");
 		});
 	
